@@ -1,0 +1,22 @@
+{
+  "name": "@t3dlc/api",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.34.0",
+    "@trpc/server": "^10.34.0",
+    "superjson": "^1.12.4",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "typescript": "^5.1.6"
+  }
+}
