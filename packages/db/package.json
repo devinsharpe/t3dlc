@@ -1,0 +1,23 @@
+{
+  "name": "@t3dlc/db",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "generate": "drizzle-kit generate:pg --config=./drizzle.config.json",
+    "migrate": "node --loader ts-node/esm src/server/db/migrate.ts"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.2",
+    "drizzle-kit": "^0.19.3",
+    "prettier": "latest",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.4.26",
+    "drizzle-orm": "^0.27.1",
+    "nanoid": "^4.0.2"
+  }
+}
