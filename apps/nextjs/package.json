@@ -6,8 +6,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start",
-    "test:e2e": "playwright test"
+    "start": "next start"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.21.15",
@@ -29,7 +28,6 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.4.9",
-    "@playwright/test": "^1.35.1",
     "@types/eslint": "^8.37.0",
     "@types/node": "^18.16.0",
     "@types/prettier": "^2.7.2",
