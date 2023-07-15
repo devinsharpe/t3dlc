@@ -1,0 +1,16 @@
+{
+  "name": "@t3dlc/config-tailwind",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "postcss.js"
+  ],
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.3"
+  }
+}
